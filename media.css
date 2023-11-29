@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: red;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: ;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    position: absolute;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    0%{
+        background-color: blue;
+        left: 0px;
+        top: 0px;
+    }
+    25%{
+        background-color: green;
+        left: 400px;
+        top: 0px;
+        rotate: 180deg;
+    }
+    50%{
+        background-color: yellow;
+        left: 400px;
+        top: 400px;
+        scale: 1;
+    }
+    75%{
+        background-color: purple;
+        left: 0px;
+        top: 400px;
+    }
+    100%{
+        background-color: red;
+        top: 0px;
+        left: 0px;
+    }
+}
+@media (max-width:780px){
+    body{
+        background-color: green;
+    }
+}
+@media (max-width:480px){
+    body{
+        background-color: blue;
+    }
+}

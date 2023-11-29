@@ -1,0 +1,64 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Cinzel', serif;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(./IMG/glassbuilding.jpg);
+ 
+    background-position: center;
+    background-size: cover;
+
+}
+nav img{
+    width: 100px;
+    padding: 20px 20px;
+}
+nav{
+    height: 70px;
+    width: 100%;
+    background-color: #000000;
+    position: fixed;
+}
+nav ul{
+    padding: 25px 20px;
+    float: right;
+
+}
+nav ul li{
+    display: inline-block;
+    padding: 0px 30px;
+    background-color:;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: #BA0000;
+}
+div{
+width: 70%;
+height: 70%;
+position: relative;
+top: 150px;
+left: 250px;
+transform: translate(-50% -50%);
+
+}
+div img{
+    width: 300px;
+    position: relative;
+    top: 17%;
+    border:  10px solid #BA0000;
+    border-radius: 30px 100px;
+}
+div h1{
+    position: relative;
+    top: -300px;
+    left: 450px;
+    font-size: 60px;  
+}
+
